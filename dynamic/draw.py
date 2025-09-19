@@ -2,6 +2,8 @@
 # coding=utf-8
 
 import numpy as np
+import matplotlib
+matplotlib.use("TkAgg") 
 from matplotlib import pyplot as plt
 import matplotlib.animation as animation
 import matplotlib.patches as mpatches
